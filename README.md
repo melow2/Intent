@@ -7,7 +7,7 @@
 
 **1. 명시적 인텐트**
 * 호출 대상이 정해져 있는 경우.
-    **예) SecondActivity로 명확한 intent의 목적이 명시되어 있을 때.**
+    * **예) SecondActivity로 명확한 intent의 목적이 명시되어 있을 때.**
 ```
 Intent intent = new Intent(MainActivity.this,SecondActivity.class); // 컨텍스트,호출할 액티비티
 startActivity(intent)
